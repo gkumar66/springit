@@ -5,6 +5,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("springit")
 public class SpringitProperties {
 	
+	/**
+	 * This is our welcome message!
+	 */
 	private String welcomeMsg = "Hello, World!";
 
 	public String getWelcomeMsg() {
